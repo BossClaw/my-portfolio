@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BossClaw's Portfolio</title>
+
+    <link rel="stylesheet" href="styles_nes.css" />
+    <link rel="stylesheet" href="crt.css" />
+
+    <script defer src="script.js"></script>
+</head>
+
+<!-- NOTE - DISABLE CRT BY CHANGING THE CLASS -->
+
+<body class="xcrt">
+    <div class="bodyContent">
+        <header>
+            <img src="logo.png" class="mw-100" />
+            <div class="h_container">
+                <p>GAMES</p>
+                <p>PROGRAMMING</p>
+                <p>ILLUSTRATION</p>
+                <p>MALARKY</p>
+            </div>
+        </header>
+
+        <main>
+            <section id="about" class="border_nes content_half">
+                <div>
+                    <img src="claw_face.png" class="mw-100">
+                </div>
+
+                <div>
+                    <p>Born surrounded by wood panelling.<br />
+                        Raised in a VHS rental store.<br />
+                        Got into fights over LEGO.<br />
+                        Taught myself C64 BASIC in grade 5<br /><br />
+                        Not at all surprised to love<br />
+                        Programming and Game Dev!</p>
+                </div>
+            </section>
+
+
+            <section id="projects" class="border_nes content_full">
+                <h2>Project Gallery</h2>
+                <!-- <p>This is a placeholder for your projects. In future chapters, you’ll add real projects here.</p> -->
+
+                <div class="proj_gallery">
+                    <div>
+                        <img src="proj.gif">
+                        <a>Project #1</a>
+                    </div>
+
+                    <div>
+                        <img src="proj.gif">
+                        <a>Project #2</a>
+                    </div>
+                    <div>
+                        <img src="proj.gif">
+                        <a>Project #3</a>
+                    </div>
+                    <div>
+                        <img src="proj.gif">
+                        <a>Project #4</a>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <section id="contact" class="border_nes content_half">
+                <div>
+                    <h2>Contact Me</h2>
+                </div>
+
+                <div>
+                    <p>In the future, this will be a contact form.<br />
+                        For now, just leave this as a placeholder.</p>
+                </div>
+            </section>
+
+            <section id="bottom_content" class="content_auto">
+                <div class="border_nes">
+                    <h5>Socials</h5>
+                    <ul>
+                        <li><a>Itch.io</a></li>
+                        <li><a>Bluesky</a></li>
+                        <li><a>Mastodon</a></li>
+                        <li><a>Youtube</a></li>
+                    </ul>
+                </div>
+
+                <div class="border_nes">
+                    <h5>Site Nav</h5>
+                    <ul>
+                        <li><a href='/'>Home</a></li>
+                        <li><a href='/'>Projects</a></li>
+                        <li><a href='/'>Work</a></li>
+                        <li><a href='/'>Misc</a></li>
+                        <li><a href='/'>Top Secret</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="border_nes">
+                    <h5>Newsletter Signup</h5>
+
+                    <p>Receive infrequent updates about cool stuff!</p>
+
+                    <input type="string" placeholder="your email">
+                    <button class="w-95">Send</button>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p>&copy; 20XX boss_claw <span class='cursor'></span></p>
+        </footer>
+
+
+        <!-- <div>
+            DYNAMIC SECTION
+            <div id="name_cta" class="border_double">
+                <h1>Welcome User!</h1>
+
+                <p>Enter your name</p>
+
+                <div id="name_gui">
+                    <input id="username" class='cursor' type="string">
+
+                    <div class="h_container">
+                        <button id='save-btn' type="button">Save Name</button>
+                        <button id='clear-btn' type="button">Clear Name</button>
+                    </div>
+                </div>
+            </div>
+
+            <p id="display-name">Your stored name will appear here!</p>
+
+            <pre id="task_output">Task output appears here</pre>
+        </div> -->
+
+    </div>
+
+    <script>
+        // MANUALLY REG THE LOGIC TO THE BUTTON
+        // document.getElementById("save-btn").addEventListener("click", () => { do_task(1, document.getElementById("username").value, document.getElementById("task_output"), document.getElementById("display-name")) });
+        // document.getElementById("clear-btn").addEventListener("click", () => { do_task(2, document.getElementById("username").value, document.getElementById("task_output"), document.getElementById("display-name")) });
+
+        // RUN ON PAGE LOAD
+        // document.addEventListener("DOMContentLoaded", function () {
+        //     update_name_display(document.getElementById("task_output"), document.getElementById("display-name"));
+        // });
+    </script>
+</body>
+
+</html>
